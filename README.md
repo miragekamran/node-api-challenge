@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [x] Mention two parts of Express that you learned about this week.
 
+      Express Middleware
+      Express Routing
+
 - [x] Describe Middleware?
+      
+      Middleware functions can get request and response objects, perform perations on them, and when specified, trigger an action. Examples are: logging and security.
 
 - [x] Describe a Resource?
 
+      A resource is the data that is returned from the server, usually from one of an API's endpoints.
+
 - [x] What can the API return to help clients know if a request was successful?
 
+      An HTTP respponse status code. 200 is the basic OK/success code.
+
 - [x] How can we partition our application into sub-applications?
+
+      We can use Express Routers to divide our application into sub-routers, which are similar to how React uses components to diide an application into smaller parts.
 
 ## Minimum Viable Product
 
